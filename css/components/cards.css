@@ -1,0 +1,38 @@
+.card-trip {
+  margin: 15px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card-trip img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+.card-trip-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+  position: relative;
+}
+.card-trip-footer h3{
+  font-size: 18px;
+  margin: 0px;
+}
+.card-trip-footer div p {
+  font-size: 12px;
+  margin: 0px;
+}
+.card-trip-footer img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -25px;
+}
+.card-trip-footer .card-trip-price {
+  margin-left: 15px;
+}
